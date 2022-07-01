@@ -31,7 +31,7 @@ export default function MyTimer() {
             audio.load();
             audio.play();
             if (!session) {
-            setNum(num)
+            setNum(y*60)
             setSession(true);
             }
             else {
@@ -110,6 +110,7 @@ export default function MyTimer() {
             let a = Number(el.value);
             a += 1;
             el.value = a;
+            y = a
             setNum(el.value*60)
         }
             }} className='field material-icons'>arrow_upwards</i>
@@ -121,6 +122,7 @@ export default function MyTimer() {
                      let a = Number(el.value);
                      a -= 1;
                      el.value = a;
+                     y = a;
                      setNum(el.value*60)
                  }
                      }}  className='field material-icons'>arrow_downwards</i>
