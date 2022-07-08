@@ -92,7 +92,7 @@ export default function MyTimer() {
                 <h1 className='center'>Countdown Timer</h1>
         <div className='row'>
         
-        <div className='break col s6'>
+        <div className='break col s5'>
             <h4>Break Length (min):</h4>
             <div className='field'>
             <i onClick={handleIncrement} className='material-icons'>arrow_upwards</i>

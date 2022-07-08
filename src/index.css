@@ -112,7 +112,8 @@ input {
   width: 5rem !important;
   display: block ;
   text-align: center;
-  color: rgba(31, 30, 30, 0.918) !important;
+  -webkit-text-fill-color: rgba(31, 30, 30) !important;
+  opacity: 0.918 !important
  
 }
 
